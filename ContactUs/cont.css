@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    background: #e6e9eb
+  }
+  .det {
+    font-size: 20px;
+    font-weight: 150;
+    margin-bottom: 15px;
+      font-family: 'Montserrat', sans-serif; 
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  i {
+    float: left;
+    font-size: 18px !important;
+    margin: 0 8px 0 0;
+} 
+.name{
+    background-color:#dce1e6;
+    border-radius:2px;
+    width:100%; 
+    padding:10px; 
+    text-decoration:none; 
+    border:none; 
+    outline:none;
+    display: inline-block; 
+    vertical-align: top;
+    position: relative; 
+    height:40px;
+ }
+.mail{
+ background-color:#dce1e6; 
+ border-radius:2px;
+ padding:10px; 
+ text-decoration:none; 
+ border:none; 
+ outline:none;display: 
+ inline-block; 
+ vertical-align: top;
+ position: relative; 
+ height:40px;
+}
+.message{
+ background-color:#dce1e6; 
+ border-radius:2px;
+ width:100%; 
+ padding:10px; 
+ text-decoration:none; 
+ border:none; 
+ outline:none;
+ display: inline-block; 
+ vertical-align: top;
+ position: relative; 
+ height:100px;
+ }
+ .bttn{
+         background-color:#00979d;
+         color: white;
+         transition: .8s;
+         line-height: 50%;
+         width:100%;
+         padding:10px; 
+         text-decoration:none; 
+         border:none; 
+         outline:none;
+         display: inline-block; 
+         vertical-align: top;
+         position: relative;
+         height:35px;
+}
+
+.bttn:hover{
+         background-color: #006f73;
+         color:white;
+         border-radius:5px;
+}
+
+.contactus{
+         padding:50px;
+         margin-bottom:1em;
+         font-size:2.5em;
+         margin-block-start:0.1em;
+         margin-block-end:0.83;
+         background-image: url(pic62.jpg);
+         background-attachment: fixed;
+         background-position: center;
+         background-size: cover;
+ 
+}
+
+#cbb{
+         margin-top:-8px;
+         width:100%;
+         display: flex;
+        justify-content: center;
+}
+.container{
+    padding-bottom: 100px;
+}
+ 
+@keyframes cnt{
+ 0%{ 
+     width:300px;
+       color: #FFFFFF;
+   }
+ 50%{
+      color:#a39e9e;
+ }
+ 70%{
+      color:#CCC;
+   }
+ 100%{
+      color:#FFFFFF;
+   }
+ 
+ }
